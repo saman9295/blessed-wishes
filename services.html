@@ -4,23 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="L-ZJHPAw0LGPoaAZtQSktFJ6a1Exkws2GeB3RhP_zko" />
-
+  
   <!-- SEO Title Tag -->
   <title>Our Services &amp; Wishes Collection - Gift Notes, Duas &amp; Cards</title>
-
+  
   <!-- Meta Description -->
   <meta name="description" content="Browse our complete collection of gift notes, thank you wishes, Islamic duas, and birthday greetings. Copy instantly for bouquet cards &amp; social messages.">
-
+  
   <!-- Main Keywords -->
   <meta name="keywords" content="gift note ideas, thank you wishes, islamic duas for health, birthday greeting text, short quotes for gifts, copy paste wishes">
-
+  
   <!-- Canonical URL -->
   <link rel="canonical" href="https://blessedwishes.netlify.app/services.html">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
-
+  
   <style>
     :root {
       --sky-lightest: #f0f8ff;
@@ -37,7 +36,6 @@
       --shadow-lg: 0 20px 30px -10px rgba(2, 132, 199, 0.18);
       --radius: 16px;
     }
-
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: 'Outfit', sans-serif;
@@ -45,7 +43,6 @@
       color: var(--text-main);
       line-height: 1.6;
     }
-
     header {
       background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
       color: var(--white);
@@ -62,7 +59,6 @@
       margin-bottom: 6px;
     }
     .brand-subtitle { font-size: 0.95rem; opacity: 0.9; font-weight: 300; }
-
     nav {
       display: flex;
       justify-content: center;
@@ -70,6 +66,7 @@
       margin: -20px 20px 25px;
       position: relative;
       z-index: 10;
+      flex-wrap: wrap;
     }
     nav a {
       background: var(--white);
@@ -88,7 +85,6 @@
       color: var(--white);
       border-color: var(--sky-primary);
     }
-
     .sub-tabs {
       display: flex;
       justify-content: center;
@@ -112,20 +108,16 @@
       background: var(--sky-dark);
       color: var(--white);
     }
-
     .container {
       max-width: 900px;
       margin: 0 auto;
       padding: 0 20px 60px;
     }
-
     .page-section { display: none; }
     .page-section.active { display: block; }
-
     .category-header { text-align: center; margin-bottom: 25px; }
     .category-header h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--sky-deep); }
     .category-header p { color: var(--text-muted); font-size: 0.95rem; }
-
     .service-banner {
       width: 100%;
       max-height: 220px;
@@ -133,7 +125,6 @@
       border-radius: 12px;
       margin-bottom: 20px;
     }
-
     .wishes-grid {
       display: grid;
       grid-template-columns: 1fr;
@@ -142,7 +133,6 @@
     @media(min-width: 640px) {
       .wishes-grid { grid-template-columns: repeat(2, 1fr); }
     }
-
     .wish-card {
       background: var(--white);
       border-radius: var(--radius);
@@ -185,7 +175,6 @@
       cursor: pointer;
     }
     .copy-btn:hover { background: var(--sky-primary); color: var(--white); }
-
     footer {
       text-align: center;
       padding: 25px;
@@ -194,7 +183,6 @@
       font-size: 0.85rem;
       border-top: 1px solid var(--sky-mid);
     }
-
     .toast {
       position: fixed;
       bottom: 20px;
@@ -213,18 +201,18 @@
   </style>
 </head>
 <body>
-
   <header>
     <!-- H1 Heading -->
     <h1 class="brand-title">Services &amp; Wishes Collection</h1>
     <p class="brand-subtitle">Curated greetings, gift tags, thank you notes &amp; prayers</p>
   </header>
 
-  <!-- Internal Navigation Links -->
+  <!-- Internal Navigation Links Updated with Blog Link -->
   <nav>
     <a href="index.html">Home</a>
     <a href="services.html" class="active">Services &amp; Wishes</a>
     <a href="faq.html">FAQ</a>
+    <a href="birthday-wishes-blog.html">Blog</a>
   </nav>
 
   <div class="sub-tabs">
@@ -235,17 +223,15 @@
   </div>
 
   <div class="container">
-
     <!-- GIFT NOTES -->
     <section id="gift-notes" class="page-section active">
-      <!-- Image with Alt Text -->
       <img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=800&q=80" alt="Hand holding a customized aesthetic gift card" class="service-banner">
       
       <div class="category-header">
-        <!-- H2 Heading -->
         <h2>Aesthetic Gift Notes for Surprises</h2>
         <p>Short and memorable messages to place inside gift boxes and bouquets.</p>
       </div>
+
       <div class="wishes-grid">
         <div class="wish-card"><p class="wish-text">"A little token of love for someone who fills my life with so much joy."</p><div class="card-footer"><span class="tag">Gift Note</span><button class="copy-btn" onclick="copyWish(this)">Copy</button></div></div>
         <div class="wish-card"><p class="wish-text">"Hoping this small gift brings a big smile to your face today!"</p><div class="card-footer"><span class="tag">Gift Note</span><button class="copy-btn" onclick="copyWish(this)">Copy</button></div></div>
@@ -258,14 +244,12 @@
 
     <!-- THANK YOU -->
     <section id="thank-you" class="page-section">
-      <!-- Image with Alt Text -->
       <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=80" alt="Thank you written on elegant stationary paper" class="service-banner">
-
       <div class="category-header">
-        <!-- H2 Heading -->
         <h2>Heartfelt Thank You Messages</h2>
         <p>Express genuine gratitude for unexpected gifts, help, and thoughtful gestures.</p>
       </div>
+
       <div class="wishes-grid">
         <div class="wish-card"><p class="wish-text">"Thank you so much for the gorgeous surprise! Your kindness touched my heart."</p><div class="card-footer"><span class="tag">Thank You</span><button class="copy-btn" onclick="copyWish(this)">Copy</button></div></div>
         <div class="wish-card"><p class="wish-text">"I am beyond grateful for your lovely gift and your sweet gesture."</p><div class="card-footer"><span class="tag">Thank You</span><button class="copy-btn" onclick="copyWish(this)">Copy</button></div></div>
@@ -276,14 +260,12 @@
 
     <!-- DUAS -->
     <section id="duas" class="page-section">
-      <!-- Image with Alt Text -->
       <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=80" alt="Beautiful Islamic architecture and serene atmosphere for prayers" class="service-banner">
-
       <div class="category-header">
-        <!-- H2 Heading -->
         <h2>Sacred Islamic Duas &amp; Prayers</h2>
         <p>Islamic blessings for peace, good health, success, and protection.</p>
       </div>
+
       <div class="wishes-grid">
         <div class="wish-card"><p class="wish-text">"May Allah SWT bless your life with endless happiness, peace, and Barakah."</p><div class="card-footer"><span class="tag">Dua</span><button class="copy-btn" onclick="copyWish(this)">Copy</button></div></div>
         <div class="wish-card"><p class="wish-text">"Praying that Allah protects you from all harms and grants you good health."</p><div class="card-footer"><span class="tag">Dua</span><button class="copy-btn" onclick="copyWish(this)">Copy</button></div></div>
@@ -294,14 +276,12 @@
 
     <!-- BIRTHDAY -->
     <section id="birthday" class="page-section">
-      <!-- Image with Alt Text -->
       <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80" alt="Colorful birthday celebration balloons and decor" class="service-banner">
-
       <div class="category-header">
-        <!-- H2 Heading -->
         <h2>Joyful Birthday Greetings</h2>
         <p>Warm birthday wishes for friends, family, and loved ones.</p>
       </div>
+
       <div class="wishes-grid">
         <div class="wish-card"><p class="wish-text">"Wishing you a fantastic birthday filled with sweet moments and joyful laughter!"</p><div class="card-footer"><span class="tag">Birthday</span><button class="copy-btn" onclick="copyWish(this)">Copy</button></div></div>
         <div class="wish-card"><p class="wish-text">"May this year bring you endless happiness, success, and beautiful achievements."</p><div class="card-footer"><span class="tag">Birthday</span><button class="copy-btn" onclick="copyWish(this)">Copy</button></div></div>
@@ -309,7 +289,6 @@
         <div class="wish-card"><p class="wish-text">"Wishing you another year of wonderful adventures and memorable moments."</p><div class="card-footer"><span class="tag">Birthday</span><button class="copy-btn" onclick="copyWish(this)">Copy</button></div></div>
       </div>
     </section>
-
   </div>
 
   <div id="toast" class="toast">Text copied to clipboard!</div>
@@ -338,6 +317,5 @@
       }, 2000);
     }
   </script>
-
 </body>
 </html>
